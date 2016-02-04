@@ -1,0 +1,31 @@
+{
+  "name": "coconauts-ci",
+  "version": "1.0.0",
+  "description": "Coconauts CI",
+  "main": "ci.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:coconauts/wedding.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "bunyan": "1.4.0",
+    "cookie-parser": "^1.4.1",
+    "cookie-session": "1.0.1",
+    "express": "4.1.1",
+    "express-session": "^1.13.0",
+    "node-env-file": "^0.1.4",
+    "redis": "^0.12.1",
+    "superagent": "^1.7.1"
+  },
+  "author": "Javier Rengel <javier@coconauts.net> (http://coconauts.net)",
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.en.html"
+    }
+  ],
+  "engine": {
+    "node": ">=0.10.25"
+  }
+}

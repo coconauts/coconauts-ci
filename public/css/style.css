@@ -1,0 +1,27 @@
+#new-application {
+  display:none;
+}
+/* ----- project -----*/
+.project {  padding:10px; }
+.status {
+  width:32px;
+  border-radius: 32px;
+  height: 32px;
+}
+.success {  background-color:green; }
+.new {  background-color:gray; }
+.in_progress {  background-color:yellow; }
+
+.error { background-color: red }
+.title { font-weight:strong; }
+.build {   color:gray; }
+
+.collapsible-body {
+  padding:20px;
+}
+textarea {
+    height: 100px;
+}
+.project * .icon {
+  margin: -3px 4px;
+}

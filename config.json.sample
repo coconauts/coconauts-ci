@@ -1,0 +1,5 @@
+{
+  "port": 8590,
+  "projects":  "/tmp",
+  "slack_hook": "https://hooks.slack.com/services/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"
+}
